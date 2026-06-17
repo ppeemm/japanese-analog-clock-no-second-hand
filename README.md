@@ -2,6 +2,8 @@
 
 A minimal, dark-themed analog clock with Japanese kanji numerals. Keep it on screen while you work. Just double-click `index.html` — no install, no build, no server.
 
+![Japanese Analog Clock Preview](images/screenshot.png)
+
 ![Preview](https://img.shields.io/badge/theme-dark-141416?style=flat-square) ![Status](https://img.shields.io/badge/status-ready-78788a?style=flat-square)
 
 ## Features
