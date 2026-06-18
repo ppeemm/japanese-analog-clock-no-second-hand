@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This is a single-file analog clock (`index.html`) with Japanese kanji numerals, designed to be kept on screen while the user works. It runs by double-clicking the file in a browser — no build tools, servers, or dependencies required.
+This is a single-file analog clock (`analog-clock-jp.html`) with Japanese kanji numerals, designed to be kept on screen while the user works. It runs by double-clicking the file in a browser — no build tools, servers, or dependencies required.
 
 ## Design Decisions
 
-- **Single HTML file** — Everything (CSS, SVG, JS) is self-contained in `index.html`. Do not split into separate files unless the user explicitly asks.
+- **Single HTML file** — Everything (CSS, SVG, JS) is self-contained in `analog-clock-jp.html`. Do not split into separate files unless the user explicitly asks.
 - **No second hand** — Removed by user request for a calmer display.
 - **Transparent clock face** — The clock has no background fill; it shares the page background color. Only the outer edge ring defines the clock boundary.
 - **Japanese kanji numerals** — Hour labels use 一〜十二 instead of Arabic 1–12. Cardinal positions (十二, 三, 六, 九) are brighter.
@@ -19,7 +19,7 @@ This is a single-file analog clock (`index.html`) with Japanese kanji numerals, 
 ## Architecture
 
 ```
-index.html
+analog-clock-jp.html
 ├── <style>        CSS custom properties, hand/tick/number styles
 ├── <svg>          Clock edge circle, tick group, number group, hand lines, center dot
 └── <script>       Tick/number generation, hand rotation via requestAnimationFrame

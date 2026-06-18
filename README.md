@@ -1,6 +1,6 @@
 # アナログ時計 — Analog Clock
 
-A minimal, dark-themed analog clock with Japanese kanji numerals. Keep it on screen while you work. Just double-click `index.html` — no install, no build, no server.
+A minimal, dark-themed analog clock with Japanese kanji numerals. Keep it on screen while you work. Just double-click `analog-clock-jp.html` — no install, no build, no server.
 
 ![Japanese Analog Clock Preview](images/preview.png)
 
